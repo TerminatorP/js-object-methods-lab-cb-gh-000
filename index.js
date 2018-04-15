@@ -23,7 +23,7 @@ class President {
       this.homestate
     }. I represent the ${this.politicalParty}s, and was in office ${
       this.yearsInOffice
-    } years.`;
+    }`;
   }
 }
 const gerogeWasington = new President("George Washington", "Independent politican", 8, "Virginia");
