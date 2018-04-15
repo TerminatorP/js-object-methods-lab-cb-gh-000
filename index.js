@@ -1,10 +1,10 @@
 // code solution here
 class President {
-  constructor(name, politicalParty, yearsInOffice, homestate) {
+  constructor(name, politicalParty, yearsInOffice, homeState) {
     this.name = name;
     this.politicalParty = politicalParty;
     this.yearsInOffice = yearsInOffice;
-    this.homestate = homestate;
+    this.homeState = homeState;
   }
   veto() {
     return "NO!";
@@ -20,7 +20,7 @@ class President {
   }
   sayHi() {
     return `Hi, my name is ${this.name}. I am from ${
-      this.homestate
+      this.homeState
     }. I represent the ${this.politicalParty}s, and was in office ${
       this.yearsInOffice
     }.`;
