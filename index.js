@@ -23,10 +23,13 @@ class President {
       this.homestate
     }. I represent the ${this.politicalParty}s, and was in office ${
       this.yearsInOffice
-    }`;
+    }.`;
   }
 }
-const gerogeWasington = new President("George Washington", "Independent politican", 8, "Virginia");
-const abrahamLincoln = new President("Abraham Lincoln", "Republican", 4, "Kentucky");
-const richardNixon = new President("Richlard Nixon", "Republican", 5, "California");
-const  jimmyCarter = new President("Jimmy Carter", "Democrat", 4, "Georgia");
+const gerogeWasington = new President("George Washington", "Virginia", "Independent politican", 8);
+const abrahamLincoln = new President("Abraham Lincoln", "Kentucky", "Republican", 4);
+const richardNixon = new President("Richlard Nixon", "California", "Republican", 5);
+const  jimmyCarter = new President("Jimmy Carter", "Georgia", "Democrat", 4);
+const lynda = new President("Lynda B. Johnson", "Texas", "Democrat", "1879-1990");
+
+console.log(lynda.sayHi())
