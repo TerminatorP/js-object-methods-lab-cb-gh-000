@@ -1,10 +1,10 @@
 // code solution here
 class President {
-  constructor(name, politicalParty, yearsInOffice, homestate) {
-    this.name = name;
+  constructor(name, homestate, politicalParty, yearsInOffice) {
+    this.name = name
+    this.homestate = homestate;
     this.politicalParty = politicalParty;
     this.yearsInOffice = yearsInOffice;
-    this.homestate = homestate;
   }
   veto() {
     return "NO!";
