@@ -1,6 +1,6 @@
 // code solution here
 class President {
-  constructor(name, politicalParty, yearsInOffice, homestate) {
+  constructor(name, homestate, politicalParty, yearsInOffice) {
     this.name = name;
     this.politicalParty = politicalParty;
     this.yearsInOffice = yearsInOffice;
@@ -26,10 +26,27 @@ class President {
     }.`;
   }
 }
-const gerogeWasington = new President("George Washington", "Virginia", "Independent politican", 8);
-const abrahamLincoln = new President("Abraham Lincoln", "Kentucky", "Republican", 4);
-const richardNixon = new President("Richlard Nixon", "California", "Republican", 5);
-const  jimmyCarter = new President("Jimmy Carter", "Georgia", "Democrat", 4);
-const lynda = new President("Lynda B. Johnson", "Texas", "Democrat", "1879-1990");
-
-console.log(lynda.sayHi())
+const gerogeWasington = new President(
+  "George Washington",
+  "Virginia",
+  "Independent politican",
+  8
+);
+const abrahamLincoln = new President(
+  "Abraham Lincoln",
+  "Kentucky",
+  "Republican",
+  4
+);
+const richardNixon = new President(
+  "Richlard Nixon",
+  "California",
+  "Republican",
+  5
+);
+const lynda = new President(
+  "Lyndon B. Johnson",
+  "Texas",
+  "Democrat",
+  "1879-1990"
+);
